@@ -1,6 +1,6 @@
 To install Docksal use the following command:
 
-`curl -fsSL https://get.docksal.io | DOCKSAL_VERSION=feature/katacoda KATACODA=1 bash`{{execute}}
+`curl -fsSL https://get.docksal.io | DOCKSAL_VERSION=develop KATACODA=1 bash`{{execute}}
 
 Setup a directory for your projects:
 

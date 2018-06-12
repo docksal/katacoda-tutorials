@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Install Docksal",
         "text": "step1.md"
       },
       {
@@ -24,7 +24,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "vhost-proxy", "port": 80}]
   },
   "backend": {
     "imageid": "ubuntu"

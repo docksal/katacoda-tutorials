@@ -29,7 +29,7 @@ Note: please use the HTTP protocol in the URL (`http://`), otherwise you'll get 
 
 You will see an "Forbidden" error. This is normal.
 
-![forbidden-error](https://monosnap.com/direct/1ToPJxrlFRMIsmCWDzaep5hFlSyeel)
+![forbidden-error](https://i.imgur.com/OO28nr9.png)
 
 There is no document root in the project directory. Let's create one and add a simple `index.php` file:
 

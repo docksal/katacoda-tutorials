@@ -1,5 +1,3 @@
-# Launch a basic LAMP project stack
-
 Switch to the projects directory you created previously:
 
 `cd ~/projects`{{execute}}

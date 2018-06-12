@@ -1,14 +1,10 @@
-Switch to the projects directory you created previously:
-
-`cd ~/projects`{{execute}}
-
 Create a folder for your first project stack:
 
-`mkdir first-project`{{execute}}
-
-Switch to that folder:
-
-`cd first-project`{{execute}}
+```
+cd ~/projects
+mkdir first-project
+cd first-project
+```
 
 Create a directory called `.docksal`:
 
@@ -23,8 +19,23 @@ You are now ready to start your first project stack:
 
 It will take some time for Docker to pull the LAMP stack images (Apache, MySQL and PHP), but this happens only once.
 
-When the process is done, click on the "vhost-proxy" tab and prepend `first-project.` to the URL, e.g.:
+When the process is done, open the "vhost-proxy" tab again and prepend `first-project.` to the URL, e.g.:
 
 ```
 http://first-project.2886795277-80-frugo01.environments.katacoda.com
 ```
+
+Note: please use the HTTP protocol in the URL (`http://`), otherwise you'll get a browser warning about invalid certificate. 
+
+You will see an "Forbidden" error. This is normal.
+
+![forbidden-error](http://take.ms/g9WuE)
+
+There is no document root in the project directory. Let's create one and add a simple `index.php` file:
+
+```
+mkdir docroot
+echo '<?php phpinfo(); ?>' > docroot/index.php
+```{{execute}}
+
+Reload the "vhost-proxy" tab. You should now see a PHP info page.

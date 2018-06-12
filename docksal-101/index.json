@@ -26,7 +26,10 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboards": [{"name": "vhost-proxy", "port": 80}]
+    "dashboards": [
+      {"name": "vhost-proxy", "port": 80},
+      {"name": "first-project", "port": 80}
+    ]
   },
   "backend": {
     "imageid": "ubuntu",

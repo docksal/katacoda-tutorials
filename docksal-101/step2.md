@@ -4,7 +4,7 @@ Create a folder for your first project stack:
 cd ~/projects
 mkdir first-project
 cd first-project
-```
+```{{execute}}
 
 Create a directory called `.docksal`:
 
@@ -29,7 +29,7 @@ Note: please use the HTTP protocol in the URL (`http://`), otherwise you'll get 
 
 You will see an "Forbidden" error. This is normal.
 
-![forbidden-error](http://take.ms/g9WuE)
+![forbidden-error](https://monosnap.com/direct/1ToPJxrlFRMIsmCWDzaep5hFlSyeel)
 
 There is no document root in the project directory. Let's create one and add a simple `index.php` file:
 

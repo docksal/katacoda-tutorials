@@ -23,8 +23,7 @@ You are now ready to start your first project stack:
 
 It will take some time for Docker to pull the LAMP stack images (Apache, MySQL and PHP), but this happens only once.
 
-When the process is done, click on the arrow on the "vhost-proxy" to open it in a new browser tab.
-Prepend `first-project.` to the URL, e.g.:
+When the process is done, click on the "vhost-proxy" tab and prepend `first-project.` to the URL, e.g.:
 
 ```
 http://first-project.2886795277-80-frugo01.environments.katacoda.com

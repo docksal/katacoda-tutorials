@@ -24,12 +24,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
+    "uilayout": "terminal",
     "showdashboard": true,
     "dashboards": [{"name": "vhost-proxy", "port": 80}]
   },
   "backend": {
-    "imageid": "ubuntu",
-    "port": "80"
+    "imageid": "ubuntu"
   }
 }

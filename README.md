@@ -1,2 +1,3 @@
-# katacoda-tutorials
-Docksal tutorials on Katacoda
+# Docksal tutorials on Katacoda
+
+

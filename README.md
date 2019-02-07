@@ -1,3 +1,2 @@
 # Docksal tutorials on Katacoda
 
-
